@@ -860,6 +860,27 @@ lock.acquire()
 lock.release()
 ```
 
+_thread
+---------
+```python
+import _thread as thread
+```
+
+### Start New Thread
+```python
+thread = start_new_thread(<function>, <tuple_args>, <dict_kwargs>))
+```
+
+_thread
+---------
+```python
+import _thread as thread
+```
+
+### Start New Thread
+```python
+thread = start_new_thread(<function>, <tuple_args>, <dict_kwargs>))
+
 
 Itertools
 ---------
@@ -868,6 +889,7 @@ Itertools
 ```python
 from itertools import *
 ```
+
 
 ### Combinatoric iterators
 ```python
