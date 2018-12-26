@@ -871,16 +871,22 @@ import _thread as thread
 thread = start_new_thread(<function>, <tuple_args>, <dict_kwargs>))
 ```
 
-_thread
+Socket
 ---------
 ```python
-import _thread as thread
+from socket import *
 ```
 
-### Start New Thread
+### Init
 ```python
-thread = start_new_thread(<function>, <tuple_args>, <dict_kwargs>))
+sock_obj = socket(AF_INET, SOCK_STREAM)
+```
 
+### Bind and Listen
+```python
+sock_obj.bind((<host>, <port>))
+sock_obj.listen(<blocked connections>)
+```
 
 Itertools
 ---------
